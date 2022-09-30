@@ -28,6 +28,9 @@ protected:
     UPROPERTY(EditAnywhere)
     UStaticMeshComponent* StaticMeshComp;
 	
+    UPROPERTY(EditAnywhere)
+    float MovementSpeed;
+
 	//Input variables
 	FVector2D MovementInput;
 	FVector2D CameraInput;
